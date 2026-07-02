@@ -45,5 +45,4 @@ public class ValidSoduku {
 }
 
 /**
- Remember how to get the idx =  (r/3) * 3 + c/3
- **/
+ Remember how to get the idx =  (r/3) * 3 + c/3**/
