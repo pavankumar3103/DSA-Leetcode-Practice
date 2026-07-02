@@ -4,13 +4,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 /*
- * Problem: Two Sum
- * LeetCode URL: https://leetcode.com/problems/two-sum/
+ * Problem: Contains Duplicate
+ * LeetCode URL: https://leetcode.com/problems/contains-duplicate/
  * Difficulty: Easy
  */
-public class TwoSum {
+class ContainsDuplicate {
 
-    public int[] twoSum(int[] nums, int target) {
+    public int[] containsDuplicate(int[] nums, int target) {
         Map<Integer, Integer> seen = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
